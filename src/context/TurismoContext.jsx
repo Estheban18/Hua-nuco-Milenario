@@ -6,7 +6,7 @@ const lugaresData = [
     id: 1,
     nombre: 'Kotosh - Templo de las Manos Cruzadas',
     descripcion: 'Sitio arqueológico preincaico famoso por su templo con relieves de manos cruzadas.',
-    imagen: '/images/kotosh.jpg',
+    imagen: '000999591W.jpg',
     ubicacion: 'A 5 km de la ciudad de Huánuco',
     categoria: 'arqueológico',
     destacado: true
