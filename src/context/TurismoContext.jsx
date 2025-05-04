@@ -79,7 +79,7 @@ const equipoData = [
     nombre: 'Makanaky la realeza',
     
   
-    imagen: 'images (1).jpeg',
+    imagen: 'images/mia2.png',
     redes: {
       
     }
@@ -89,7 +89,7 @@ const equipoData = [
     nombre: 'Faraon Love Shaydi',
     cargo: 'Coordinadora de Eventos',
     bio: 'Experta en gestión de eventos culturales y promoción del patrimonio local.',
-    imagen: 'images (1).jpeg',
+    imagen: 'images/mia.png',
     redes: {
      
 
@@ -99,7 +99,7 @@ const equipoData = [
     id: 3,
     nombre: 'Sideral Lujan Carrion',
 
-    imagen: 'descarga (6).jpeg',
+    imagen: 'images/mia3.png',
     redes: {
     
 
