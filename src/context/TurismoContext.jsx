@@ -6,7 +6,7 @@ const lugaresData = [
     id: 1,
     nombre: 'Kotosh - Templo de las Manos Cruzadas',
     descripcion: 'Sitio arqueológico preincaico famoso por su templo con relieves de manos cruzadas.',
-    imagen: 'descarga-_8_.jpg',
+    imagen: 'images/000999591W.jpg',
     ubicacion: 'A 5 km de la ciudad de Huánuco',
     categoria: 'arqueológico',
     destacado: true
@@ -15,7 +15,7 @@ const lugaresData = [
     id: 2,
     nombre: 'Tingo María - Parque Nacional',
     descripcion: 'Hermoso parque nacional conocido por la "Bella Durmiente" y sus cuevas de Lechuzas.',
-    imagen: 'images-_2_.jpg',
+    imagen: 'images/images (6).jpeg',
     ubicacion: 'Tingo María, Huánuco',
     categoria: 'naturaleza',
     destacado: true
@@ -24,7 +24,7 @@ const lugaresData = [
     id: 3,
     nombre: 'Huánuco Pampa',
     descripcion: 'Impresionante ciudad inca que funcionaba como centro administrativo.',
-    imagen: 'huanuco-pampa-monumental-archaeological-zone-556.png',
+    imagen: 'images/descarga (10).jpeg',
     ubicacion: 'Provincia de Dos de Mayo',
     categoria: 'arqueológico',
     destacado: false
@@ -33,7 +33,7 @@ const lugaresData = [
     id: 4,
     nombre: 'Laguna de los Milagros',
     descripcion: 'Hermosa laguna rodeada de vegetación exuberante y diversidad de aves.',
-    imagen: 'un-dia-de-relax-hermoso.jpg',
+    imagen: 'images/un-dia-de-relax-hermoso (1).jpg',
     ubicacion: 'Provincia de Leoncio Prado',
     categoria: 'naturaleza',
     destacado: true
@@ -45,7 +45,7 @@ const eventosData = [
     id: 1,
     nombre: 'Festival de la Danza de los Negritos',
     descripcion: 'Tradicional danza que representa la época colonial y la esclavitud.',
-    imagen: 'principal-Festividad-de-los-Negritos-de-Huánuco.webp',
+    imagen: 'image/principal-Festividad-de-los-Negritos-de-Huánuco.webp',
     fecha: '26 de diciembre',
     lugar: 'Plaza de Armas de Huánuco',
     categoria: 'cultural',
@@ -79,16 +79,16 @@ const equipoData = [
     nombre: 'Makanaky la realeza',
     
   
-    imagen: 'images/mia2.png',
+    imagen: 'images/images (1).jpeg',
     redes: {
       
     }
   },
   {
     id: 2,
-    nombre: 'Faraon Love Shaydi',
+    nombre: 'Mia Khalifai',
     cargo: 'Coordinadora de Eventos',
-    bio: 'Experta en gestión de eventos culturales y promoción del patrimonio local.',
+
     imagen: 'images/mia.png',
     redes: {
      
@@ -99,7 +99,7 @@ const equipoData = [
     id: 3,
     nombre: 'Sideral Lujan Carrion',
 
-    imagen: 'images/mia3.png',
+    imagen: 'images/descarga (6).jpeg',
     redes: {
     
 

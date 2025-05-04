@@ -82,7 +82,7 @@ const Home = () => {
             <Link to="/nosotros" className="btn btn-outline">Conoce más</Link>
           </div>
           <div className="about-image">
-            <img src="/images/huanuco-panorama.jpg" alt="Panorámica de Huánuco" />
+            <img src="images/5130364698_5c4b92eb91_b.jpg" alt="Panorámica de Huánuco" />
           </div>
         </div>
       </motion.section>
