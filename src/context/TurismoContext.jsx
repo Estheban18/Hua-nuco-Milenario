@@ -6,7 +6,7 @@ const lugaresData = [
     id: 1,
     nombre: 'Kotosh - Templo de las Manos Cruzadas',
     descripcion: 'Sitio arqueológico preincaico famoso por su templo con relieves de manos cruzadas.',
-    imagen: '000999591W.jpg',
+    imagen: 'descarga-_8_.jpg',
     ubicacion: 'A 5 km de la ciudad de Huánuco',
     categoria: 'arqueológico',
     destacado: true
@@ -15,7 +15,7 @@ const lugaresData = [
     id: 2,
     nombre: 'Tingo María - Parque Nacional',
     descripcion: 'Hermoso parque nacional conocido por la "Bella Durmiente" y sus cuevas de Lechuzas.',
-    imagen: '/images/tingo-maria.jpg',
+    imagen: 'images-_2_.jpg',
     ubicacion: 'Tingo María, Huánuco',
     categoria: 'naturaleza',
     destacado: true
@@ -24,7 +24,7 @@ const lugaresData = [
     id: 3,
     nombre: 'Huánuco Pampa',
     descripcion: 'Impresionante ciudad inca que funcionaba como centro administrativo.',
-    imagen: '/images/huanuco-pampa.jpg',
+    imagen: 'huanuco-pampa-monumental-archaeological-zone-556.png',
     ubicacion: 'Provincia de Dos de Mayo',
     categoria: 'arqueológico',
     destacado: false
@@ -33,7 +33,7 @@ const lugaresData = [
     id: 4,
     nombre: 'Laguna de los Milagros',
     descripcion: 'Hermosa laguna rodeada de vegetación exuberante y diversidad de aves.',
-    imagen: '/images/laguna-milagros.jpg',
+    imagen: 'un-dia-de-relax-hermoso.jpg',
     ubicacion: 'Provincia de Leoncio Prado',
     categoria: 'naturaleza',
     destacado: true
@@ -45,7 +45,7 @@ const eventosData = [
     id: 1,
     nombre: 'Festival de la Danza de los Negritos',
     descripcion: 'Tradicional danza que representa la época colonial y la esclavitud.',
-    imagen: '/images/danza-negritos.jpg',
+    imagen: 'principal-Festividad-de-los-Negritos-de-Huánuco.webp',
     fecha: '26 de diciembre',
     lugar: 'Plaza de Armas de Huánuco',
     categoria: 'cultural',
@@ -55,7 +55,7 @@ const eventosData = [
     id: 2,
     nombre: 'Carnaval Huanuqueño',
     descripcion: 'Colorida celebración con danzas, música y el tradicional cortamonte.',
-    imagen: '/images/carnaval.jpg',
+    imagen: 'images (3).jpeg',
     fecha: 'Febrero',
     lugar: 'Diversas localidades de Huánuco',
     categoria: 'festival',
@@ -64,8 +64,8 @@ const eventosData = [
   {
     id: 3,
     nombre: 'Semana Turística de Huánuco',
-    descripcion: 'Semana llena de actividades culturales, gastronómicas y artísticas.',
-    imagen: '/images/semana-turistica.jpg',
+   
+    imagen: 'images (4).jpeg',
     fecha: 'Agosto',
     lugar: 'Ciudad de Huánuco',
     categoria: 'turístico',
@@ -76,35 +76,33 @@ const eventosData = [
 const equipoData = [
   {
     id: 1,
-    nombre: 'Carlos Mendoza',
-    cargo: 'Director de Turismo',
-    bio: 'Especialista en desarrollo turístico sostenible con más de 15 años de experiencia.',
-    imagen: '/images/team/carlos.jpg',
+    nombre: 'Makanaky la realeza',
+    
+  
+    imagen: 'images (1).jpeg',
     redes: {
-      linkedin: 'https://linkedin.com/in/carlosmendoza',
-      twitter: 'https://twitter.com/carlosmendoza'
+      
     }
   },
   {
     id: 2,
-    nombre: 'María Sánchez',
+    nombre: 'Faraon Love Shaydi',
     cargo: 'Coordinadora de Eventos',
     bio: 'Experta en gestión de eventos culturales y promoción del patrimonio local.',
-    imagen: '/images/team/maria.jpg',
+    imagen: 'images (1).jpeg',
     redes: {
-      linkedin: 'https://linkedin.com/in/mariasanchez',
-      instagram: 'https://instagram.com/mariasanchez'
+     
+
     }
   },
   {
     id: 3,
-    nombre: 'Jorge Ramírez',
-    cargo: 'Guía Turístico Senior',
-    bio: 'Conocedor de la historia y geografía de Huánuco, con certificación internacional.',
-    imagen: '/images/team/jorge.jpg',
+    nombre: 'Sideral Lujan Carrion',
+
+    imagen: 'descarga (6).jpeg',
     redes: {
-      facebook: 'https://facebook.com/jorgeramirez',
-      instagram: 'https://instagram.com/jorgeramirez'
+    
+
     }
   }
 ];
@@ -112,15 +110,16 @@ const equipoData = [
 const testimoniosData = [
   {
     id: 1,
-    nombre: 'Ana García',
+    nombre: 'Faraon Love Shaydi',
     origen: 'Lima, Perú',
     texto: 'Mi visita a Huánuco fue increíble. Los paisajes son espectaculares y la gente muy amable. Definitivamente volveré.',
     rating: 5,
-    imagen: '/images/testimonials/ana.jpg'
+    imagen: 'images (1).jpeg',
+    
   },
   {
     id: 2,
-    nombre: 'John Smith',
+    nombre: 'Makanaky  la realeza ',
     origen: 'California, USA',
     texto: 'Kotosh es un sitio arqueológico impresionante. Los guías locales conocen muy bien la historia y hacen la experiencia única.',
     rating: 4,

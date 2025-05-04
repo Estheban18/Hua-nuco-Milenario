@@ -141,7 +141,7 @@ const Chatbot = () => {
           ref={chatWindowRef}
         >
           <div className="chatbot-header">
-            <h3>Huani - Tu Pata Turístico</h3>
+            <h3>Huanuco - Tu Pata Turístico</h3>
             <div className="chatbot-controls">
               <button
                 className="expand-button"

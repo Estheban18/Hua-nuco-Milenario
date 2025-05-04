@@ -5,7 +5,10 @@
 .hero-nosotros {
   height: 50vh;
   min-height: 400px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/nosotros-hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('98e352f526820ba4d5d1e43467d311a8.jpg');
+
+
+  
   background-size: cover;
   background-position: center;
   display: flex;
