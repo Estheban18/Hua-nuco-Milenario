@@ -45,7 +45,7 @@ const eventosData = [
     id: 1,
     nombre: 'Festival de la Danza de los Negritos',
     descripcion: 'Tradicional danza que representa la época colonial y la esclavitud.',
-    imagen: 'image/principal-Festividad-de-los-Negritos-de-Huánuco.webp',
+    imagen: 'images/000228759W.jpg',
     fecha: '26 de diciembre',
     lugar: 'Plaza de Armas de Huánuco',
     categoria: 'cultural',
@@ -55,7 +55,7 @@ const eventosData = [
     id: 2,
     nombre: 'Carnaval Huanuqueño',
     descripcion: 'Colorida celebración con danzas, música y el tradicional cortamonte.',
-    imagen: 'images (3).jpeg',
+    imagen: 'images/000652803W.jpg',
     fecha: 'Febrero',
     lugar: 'Diversas localidades de Huánuco',
     categoria: 'festival',
@@ -65,7 +65,7 @@ const eventosData = [
     id: 3,
     nombre: 'Semana Turística de Huánuco',
    
-    imagen: 'images (4).jpeg',
+    imagen: 'images/SEMANA-SANTA-HUANUCO-copia-640x400.jpg',
     fecha: 'Agosto',
     lugar: 'Ciudad de Huánuco',
     categoria: 'turístico',
@@ -79,7 +79,7 @@ const equipoData = [
     nombre: 'Makanaky la realeza',
     
   
-    imagen: 'images/images (1).jpeg',
+    imagen: 'images/channels4_profile.jpg',
     redes: {
       
     }
@@ -89,7 +89,7 @@ const equipoData = [
     nombre: 'Mia Khalifai',
     cargo: 'Coordinadora de Eventos',
 
-    imagen: 'images/mia.png',
+    imagen: 'images/Mia_Khalifa_in_2016.jpg',
     redes: {
      
 
@@ -98,8 +98,8 @@ const equipoData = [
   {
     id: 3,
     nombre: 'Sideral Lujan Carrion',
-
-    imagen: 'images/descarga (6).jpeg',
+    cargo: 'Marketin',
+    imagen: 'images/images (11).jpeg',
     redes: {
     
 
@@ -110,11 +110,11 @@ const equipoData = [
 const testimoniosData = [
   {
     id: 1,
-    nombre: 'Faraon Love Shaydi',
+    nombre: 'Messi',
     origen: 'Lima, Perú',
     texto: 'Mi visita a Huánuco fue increíble. Los paisajes son espectaculares y la gente muy amable. Definitivamente volveré.',
     rating: 5,
-    imagen: 'images (1).jpeg',
+    imagen: 'images/Messi PFP.jpeg',
     
   },
   {
@@ -123,7 +123,7 @@ const testimoniosData = [
     origen: 'California, USA',
     texto: 'Kotosh es un sitio arqueológico impresionante. Los guías locales conocen muy bien la historia y hacen la experiencia única.',
     rating: 4,
-    imagen: '/images/testimonials/john.jpg'
+    imagen: 'images/7aac753f852ec60e2695d1a8ab7ebe03.jpg'
   },
   {
     id: 3,
@@ -131,7 +131,7 @@ const testimoniosData = [
     origen: 'Arequipa, Perú',
     texto: 'El Parque Nacional de Tingo María es un paraíso natural. Las cuevas de Lechuzas son fascinantes.',
     rating: 5,
-    imagen: '/images/testimonials/luisa.jpg'
+    imagen: 'images/🕷️.jpeg'
   }
 ];
 
