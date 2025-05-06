@@ -1,6 +1,6 @@
 # 🌄 Turismo Huánuco - Sitio Web Oficial
 
-![Banner Turismo Huánuco](public/images/hero-huanuco.jpg)
+![Banner Turismo Huánuco](public/images/descarga (13).jpg)
 
 ## 📝 Descripción
 
@@ -89,4 +89,3 @@ Si deseas contribuir a este proyecto, por favor:
 5. Abre un Pull Request
 
 
-Desarrollado con ❤️ para promover el turismo en Huánuco, Perú.
