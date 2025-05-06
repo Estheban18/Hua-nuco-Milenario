@@ -1,6 +1,6 @@
 # 🌄 Turismo Huánuco - Sitio Web Oficial
 
-![Banner Turismo Huánuco](public/images/descarga (13).jpg)
+![Banner Turismo Huánuco](images/descarga (13).jpg)
 
 ## 📝 Descripción
 
