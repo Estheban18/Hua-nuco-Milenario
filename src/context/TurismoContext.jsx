@@ -86,7 +86,7 @@ const equipoData = [
   },
   {
     id: 2,
-    nombre: 'Mia Khalifai',
+    nombre: 'Mia Khalifa',
     cargo: 'Coordinadora de Eventos',
 
     imagen: 'images/Mia_Khalifa_in_2016.jpg',

@@ -1,7 +1,9 @@
+/* Contenedor principal */
 .nosotros-container {
   width: 100%;
 }
 
+/* Banner de héroe con fondo y texto centrado */
 .hero-nosotros {
   height: 50vh;
   min-height: 400px;
@@ -16,24 +18,29 @@
   padding: 0 1rem;
 }
 
+/* Contenido interno del héroe */
 .hero-content {
   max-width: 800px;
+  padding: 1rem;
 }
 
+/* Título principal del héroe */
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Párrafos en héroe */
 .hero-content p {
   font-size: 1.2rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Sección Misión y Visión */
 .mision-vision {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   max-width: 1200px;
   margin: -3rem auto 0;
@@ -42,23 +49,26 @@
   z-index: 10;
 }
 
+/* Cards de Misión y Visión */
 .mision-vision .card {
-  background-color: white;
+  background-color: #fff;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  transition: box-shadow 0.3s, transform 0.3s;
 }
 
+/* Títulos de Misión y Visión */
 .mision-vision h2 {
   color: var(--primary-color);
   margin-bottom: 1rem;
   font-size: 1.8rem;
-  position: relative;
   padding-bottom: 0.5rem;
   display: inline-block;
+  position: relative;
 }
 
+/* Línea decorativa debajo del título */
 .mision-vision h2::after {
   content: '';
   position: absolute;
@@ -70,11 +80,13 @@
   background-color: var(--secondary-color);
 }
 
+/* Texto en mision-vision */
 .mision-vision p {
   color: #555;
   line-height: 1.6;
 }
 
+/* Sección Equipo */
 .equipo {
   padding: 5rem 2rem;
   max-width: 1200px;
@@ -82,6 +94,7 @@
   text-align: center;
 }
 
+/* Título de equipo */
 .equipo h2 {
   font-size: 2.5rem;
   color: var(--primary-color);
@@ -91,6 +104,7 @@
   display: inline-block;
 }
 
+/* Línea decorativa del título del equipo */
 .equipo h2::after {
   content: '';
   position: absolute;
@@ -102,12 +116,14 @@
   background-color: var(--secondary-color);
 }
 
+/* Grid del equipo */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
 }
 
+/* Tarjetas de miembros del equipo */
 .team-member {
   background-color: white;
   border-radius: 10px;
@@ -116,11 +132,13 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover en las tarjetas */
 .team-member:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* Imagen de miembros */
 .member-image {
   width: 100%;
   height: 250px;
@@ -128,6 +146,7 @@
   border-bottom: 3px solid var(--secondary-color);
 }
 
+/* Información de los miembros */
 .member-info {
   padding: 1.5rem;
 }
@@ -144,6 +163,7 @@
   margin-bottom: 1rem;
 }
 
+/* Bio adicional del miembro */
 .member-info .member-bio {
   color: #555;
   line-height: 1.6;
@@ -151,21 +171,21 @@
   margin-top: 1rem;
 }
 
-/* Responsive */
+/* Resposividad */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.5rem;
   }
-  
+
   .mision-vision {
     grid-template-columns: 1fr;
     margin-top: -2rem;
   }
-  
+
   .equipo h2 {
     font-size: 2rem;
   }
-  
+
   .team-grid {
     grid-template-columns: 1fr;
     max-width: 400px;
