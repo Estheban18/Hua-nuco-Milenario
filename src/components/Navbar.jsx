@@ -11,11 +11,13 @@ const Navbar = () => {
   const location = useLocation();
 
   const navLinks = [
-    { name: 'Inicio', path: '/' },
-    { name: 'Nosotros', path: '/nosotros' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Contacto', path: '/contacto' }
-  ];
+  { name: 'Inicio', path: '/' },
+  { name: 'Nosotros', path: '/nosotros' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'Paquetes Turísticos', path: '/paquetes' },
+  { name: 'Contacto', path: '/contacto' }
+];
+
 
   useEffect(() => {
     const handleScroll = () => {

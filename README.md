@@ -5,6 +5,7 @@ Pagina Web informativa Turistico
 
 
 
+![image](https://github.com/user-attachments/assets/3aa6d6d8-1f87-4c34-8674-d97bc618214c)
 
 
 
