@@ -45,7 +45,7 @@ const Footer = () => {
           <h3>Turismo Huánuco</h3>
           <p>
             Promoviendo el turismo sostenible y mostrando la riqueza cultural,
-            natural e histórica de nuestra región desde 2010.
+            natural e histórica de nuestra región . 
           </p>
           <div className="social-links">
             {socialMedia.map((social, index) => (
