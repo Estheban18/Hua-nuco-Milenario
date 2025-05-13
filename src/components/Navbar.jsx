@@ -13,7 +13,7 @@ const Navbar = () => {
   const navLinks = [
   { name: 'Inicio', path: '/' },
   { name: 'Nosotros', path: '/nosotros' },
-  { name: 'Blog', path: '/blog' },
+  { name: 'Explora Huánuco', path: '/blog' },
   { name: 'Paquetes Turísticos', path: '/paquetes' },
   { name: 'Contacto', path: '/contacto' },
   { name: 'Login', path: '/login', icon: <FaUser /> }
