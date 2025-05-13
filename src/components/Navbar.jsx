@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
+import { FaBars, FaTimes, FaSearch, FaUser } from 'react-icons/fa';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
@@ -15,9 +15,9 @@ const Navbar = () => {
   { name: 'Nosotros', path: '/nosotros' },
   { name: 'Blog', path: '/blog' },
   { name: 'Paquetes Turísticos', path: '/paquetes' },
-  { name: 'Contacto', path: '/contacto' }
+  { name: 'Contacto', path: '/contacto' },
+  { name: 'Login', path: '/login', icon: <FaUser /> }
 ];
-
 
   useEffect(() => {
     const handleScroll = () => {

@@ -1,4 +1,15 @@
+
+
+
+
+
+
+
 /* Variables de colores */
+
+
+
+
 :root {
   --primary-color: #4361ee;
   --primary-dark: #3a0ca3;
@@ -247,3 +258,11 @@
     padding: 0 20px 20px;
   }
 }
+
+
+.nav-icon {
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center; 
+  font-size: 1.1em;
+} 
