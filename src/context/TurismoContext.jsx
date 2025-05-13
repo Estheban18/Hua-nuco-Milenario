@@ -77,8 +77,7 @@ const equipoData = [
   {
     id: 1,
     nombre: 'Makanaky la realeza',
-    
-  
+    cargo: 'Especialista en Guia Turistica',
     imagen: 'images/channels4_profile.jpg',
     redes: {
       
@@ -98,7 +97,7 @@ const equipoData = [
   {
     id: 3,
     nombre: 'Sideral Lujan Carrion',
-    cargo: 'Marketin',
+    cargo: 'Especialista Marketin',
     imagen: 'images/images (11).jpeg',
     redes: {
     
@@ -120,7 +119,7 @@ const testimoniosData = [
   {
     id: 2,
     nombre: 'Makanaky  la realeza ',
-    origen: 'California, USA',
+    origen: 'PUNO',
     texto: 'Kotosh es un sitio arqueológico impresionante. Los guías locales conocen muy bien la historia y hacen la experiencia única.',
     rating: 4,
     imagen: 'images/7aac753f852ec60e2695d1a8ab7ebe03.jpg'
