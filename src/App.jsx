@@ -11,6 +11,7 @@ import Chatbot from './components/Chatbot';
 import Loading from './components/Loading';
 import Error404 from './components/Error404';
 import Login from './components/login';
+import TourPackage from './components/TourPackage'; // Asegúrate de importar el componente
 import { TurismoProvider } from './context/TurismoContext';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
               <Route path="/nosotros" element={<Nosotros />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/paquetes" element={<TourPackage />} />
               <Route path="/login" element={<Login />} />
               <Route path="*" element={<Error404 />} />
             </Routes>

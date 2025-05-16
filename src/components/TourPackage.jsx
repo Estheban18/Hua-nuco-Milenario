@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './TourPackage.css';
+import '../styles/TourPackage.css';
 
 const TourPackage = () => {
   const [cart, setCart] = useState([]);
