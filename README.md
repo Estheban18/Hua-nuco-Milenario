@@ -6,6 +6,7 @@ Pagina Web informativa Turistico
 ![Captura de pantalla 2025-05-12 212207](https://github.com/user-attachments/assets/5961906d-390d-41d8-ae07-cd1902cce605)
 
 
+![image](https://github.com/user-attachments/assets/02bb0fab-ed7d-4520-8f94-4d6f82756e49)
 
 
 
