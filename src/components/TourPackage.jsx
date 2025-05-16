@@ -8,41 +8,41 @@ const TourPackage = () => {
   const [travelers, setTravelers] = useState(1);
   const [selectedPackage, setSelectedPackage] = useState(null);
 
-  const packages = [
-    {
-      id: 1,
-      title: "Adventure in the Andes",
-      description: "5-day hiking tour through stunning mountain landscapes with expert guides.",
-      price: 899,
-      image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      duration: "5 days",
-      difficulty: "Moderate",
-      includes: ["Accommodation", "Meals", "Transport", "Guide"],
-      dates: ["2023-06-15", "2023-07-20", "2023-08-10"]
-    },
-    {
-      id: 2,
-      title: "Amazon Jungle Expedition",
-      description: "7-day immersive experience in the heart of the Amazon rainforest.",
-      price: 1299,
-      image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      duration: "7 days",
-      difficulty: "Challenging",
-      includes: ["Lodge stay", "All meals", "Boat transport", "Bilingual guide"],
-      dates: ["2023-06-10", "2023-07-15", "2023-09-05"]
-    },
-    {
-      id: 3,
-      title: "Coastal Paradise Getaway",
-      description: "4-day relaxing beach vacation with optional water activities.",
-      price: 649,
-      image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      duration: "4 days",
-      difficulty: "Easy",
-      includes: ["Beachfront hotel", "Breakfast", "Snorkeling gear", "Airport transfers"],
-      dates: ["2023-05-20", "2023-06-25", "2023-08-15"]
-    }
-  ];
+ const packages = [
+  {
+    id: 1,
+    title: "Adventure in the Andes",
+    description: "5-day hiking tour through stunning mountain landscapes with expert guides.",
+    price: 3700, // soles (aproximadamente $1000 USD)
+    image: "images/un-dia-de-relax-hermoso.jpg",
+    duration: "5 days",
+    difficulty: "Moderate",
+    includes: ["Accommodation", "Meals", "Transport", "Guide"],
+    dates: ["2023-06-15", "2023-07-20", "2023-08-10"]
+  },
+  {
+    id: 2,
+    title: "Amazon Jungle Expedition",
+    description: "7-day immersive experience in the heart of the Amazon rainforest.",
+    price: 4800, // soles (aproximadamente $1299 USD)
+    image: "images/119666802.jpg",
+    duration: "7 days",
+    difficulty: "Challenging",
+    includes: ["Lodge stay", "All meals", "Boat transport", "Bilingual guide"],
+    dates: ["2023-06-10", "2023-07-15", "2023-09-05"]
+  },
+  {
+    id: 3,
+    title: "Coastal Paradise Getaway",
+    description: "4-day relaxing beach vacation with optional water activities.",
+    price: 2400, // soles (aproximadamente $649 USD)
+    image: "images/puentes-en-huanuco-puente-calicanto.webp",
+    duration: "4 days",
+    difficulty: "Easy",
+    includes: ["Beachfront hotel", "Breakfast", "Snorkeling gear", "Airport transfers"],
+    dates: ["2023-05-20", "2023-06-25", "2023-08-15"]
+  }
+]; 
 
   const addToCart = (pkg) => {
     if (!selectedDate) {
@@ -82,7 +82,7 @@ const TourPackage = () => {
   return (
     <div className="tour-package-container">
       <header className="tour-header">
-        <h1>Adventure Tours</h1>
+        
         <div className="cart-icon" onClick={() => setIsCartOpen(!isCartOpen)}>
           🛒 {cart.length > 0 && <span className="cart-count">{cart.length}</span>}
         </div>
